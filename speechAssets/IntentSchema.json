@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "intent": "MyNameIsIntent",
+      "slots": [
+        {
+          "name": "firstname",
+          "type": "AMAZON.GB_FIRST_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "MyPostcodeOneIsIntent",
+      "slots": [
+        {
+          "name": "PostCodeCharOne",
+          "type": "LETTER"
+        },
+        {
+          "name": "PostCodeCharTwo",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "PostCodeCharThree",
+          "type": "LETTER_OR_NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "MyPostcodeTwoIsIntent",
+      "slots": [
+        {
+          "name": "PostCodeCharFive",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "PostCodeCharSix",
+          "type": "LETTER"
+        },
+        {
+          "name": "PostCodeCharSeven",
+          "type": "LETTER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

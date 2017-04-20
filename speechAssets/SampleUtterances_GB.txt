@@ -1,0 +1,13 @@
+MyNameIsIntent my name is {firstname}
+MyPostcodeOneIsIntent my outer postcode is {PostCodeCharOne} {PostCodeCharTwo}
+MyPostcodeOneIsIntent my outer postcode is {PostCodeCharOne} {PostCodeCharTwo} {PostCodeCharThree}
+MyPostcodeOneIsIntent my postcode part one is {PostCodeCharOne} {PostCodeCharTwo}
+MyPostcodeOneIsIntent my postcode part one is {PostCodeCharOne} {PostCodeCharTwo} {PostCodeCharThree}
+MyPostcodeOneIsIntent my postcode section one is {PostCodeCharOne} {PostCodeCharTwo}
+MyPostcodeOneIsIntent my postcode section one is {PostCodeCharOne} {PostCodeCharTwo} {PostCodeCharThree}
+MyPostcodeTwoIsIntent inner part is {PostCodeCharFive} {PostCodeCharSix} {PostCodeCharSeven}
+MyPostcodeTwoIsIntent my inner postcode is {PostCodeCharFive} {PostCodeCharSix} {PostCodeCharSeven}
+MyPostcodeTwoIsIntent my postcode part two is {PostCodeCharFive} {PostCodeCharSix} {PostCodeCharSeven}
+MyPostcodeTwoIsIntent my postcode section two is {PostCodeCharFive} {PostCodeCharSix} {PostCodeCharSeven}
+AMAZON.StopIntent Stop
+AMAZON.CancelIntent Cancel
