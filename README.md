@@ -1,4 +1,4 @@
-# alexapostcode
+# alexa-postcode
 Code Repo to create a foundation code base for an Alexa skill that uses UK postcodes
 
 ### Optional code chunks (these can be disabled)
